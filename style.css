@@ -4,18 +4,21 @@
   --purple: #5280e2;
   --green: #15CDCB;
   --bg-dark: #212226;
+  --light-grey: #e0dede;
 }
 
 * {
-  box-sizing: border-box;
+  box-sizing: border-box;  
 }
 
 html, body { 
   margin: 0;
+  background-color: var(--bg-dark);
 }
 
 body, button, input, select, textarea {
   font-family: 'Poppins', sans-serif;
+  color: white;
 }
 
 h1 {
@@ -27,16 +30,13 @@ h2 {
   font-size: 24px;
 }
 
-body {
-  background-color: var(--bg-dark);
+h1, h2 {
+  margin: 0;
+  font-weight: 400;
 }
 
-p.intro {
-  color: white;
-}
-
-h1.intro {
-  color: var(--green);
+p {
+  color: var(--light-grey);
 }
 
 button {
@@ -44,7 +44,26 @@ button {
   border: 0;
   border-radius: 16px;
   padding: 8px 35px;
-  color: white;
   font-weight: bold;
   font-size: 18px;
+}
+
+header{
+  height: calc(100vh - 65px);
+  display: flex;
+  align-items: center;
+}
+
+header .container {
+  width: 50%;
+  height: fit-content;
+  padding: 0 100px;
+}
+
+header .container h1 {
+  color: var(--green);
+}
+
+header .container button {
+  margin-top: 40px;
 }
