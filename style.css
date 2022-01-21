@@ -148,6 +148,39 @@ nav ul a svg {
   border: 1px solid var(--green);
 }
 
+.services {
+  text-align: center;
+  margin: 150px 0;
+  padding: 0 100px;  
+}
+
+.services-container {
+  margin-top: 60px;
+  display: flex;  
+}
+
+.services .services-container .service-card {
+  background: #2F3034;
+  border: 1px solid var(--purple);
+  border-radius: 16px;
+  padding: 40px 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.services .services-container .service-card img {
+  margin-bottom: 40px;
+  width: 90px;
+}
+
+.service-card + .service-card {
+  margin-left: 10px;
+}
+
 /*Responsividade*/
 
 /*Responsividade para "Smalldesktops"*/
