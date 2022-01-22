@@ -183,6 +183,11 @@ nav ul a svg {
   margin-left: 10px;
 }
 
+.portfolio {
+  padding: 0 100px;
+  text-align: center;
+}
+
 /*Responsividade*/
 
 /*Responsividade para "Smalldesktops"*/
