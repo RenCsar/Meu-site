@@ -154,7 +154,7 @@ nav ul a svg {
   padding: 0 100px;  
 }
 
-.services-container {
+.services-container, .portfolio-container {
   display: flex;  
   justify-content: space-between;
   max-width: 1200px;
@@ -185,7 +185,23 @@ nav ul a svg {
 
 .portfolio {
   padding: 0 100px;
+  margin-bottom: 100px;
   text-align: center;
+  background: url("/Assets/bg.png");
+}
+
+.portfolio .portfolio-container .portfolio-card {
+  background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.33) 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(42px);
+  border: 1px solid white;
+
+  border-radius: 16px;
+  max-width: 360px;
+}
+
+.portfolio-card + .portfolio-card {
+  margin-left: 10px;
 }
 
 /*Responsividade*/
