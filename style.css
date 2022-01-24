@@ -200,6 +200,18 @@ nav ul a svg {
   max-width: 360px;
 }
 
+.portfolio .portfolio-container .portfolio-card .img-container {
+  margin: 50px 25px;
+}
+
+.portfolio .portfolio-container .portfolio-card .img-container img {
+  width: 100%;
+}
+
+.portfolio .portfolio-container .portfolio-card .language-container ul {
+  display: flex;
+}
+
 .portfolio-card + .portfolio-card {
   margin-left: 10px;
 }
