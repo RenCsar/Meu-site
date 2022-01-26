@@ -198,22 +198,47 @@ nav ul a svg {
 
   border-radius: 16px;
   max-width: 360px;
+  text-align: left;
+  padding: 50px 25px;
 }
 
 .portfolio .portfolio-container .portfolio-card .img-container {
-  margin: 50px 25px;
+  margin: 0 25px 50px;
 }
 
 .portfolio .portfolio-container .portfolio-card .img-container img {
   width: 100%;
 }
 
+.portfolio .portfolio-container .portfolio-card .language-container {
+  margin-bottom: 20px;
+}
+
 .portfolio .portfolio-container .portfolio-card .language-container ul {
   display: flex;
+  list-style: none;
+  padding: 0;
 }
+
+.portfolio .portfolio-container .portfolio-card .language-container ul li {
+  color: var(--green);  
+  border: 1px solid var(--green);
+  border-radius: 8px;
+  padding: 3px 15px;
+}
+
+.portfolio-card .language-container ul li + li {
+  margin-left: 10px;
+}
+
+
 
 .portfolio-card + .portfolio-card {
   margin-left: 10px;
+}
+
+.portfolio-card p {
+  margin: 0;
 }
 
 /*Responsividade*/
