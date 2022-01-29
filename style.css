@@ -186,6 +186,7 @@ nav ul a svg {
 .portfolio {
   padding: 0 100px;
   margin-bottom: 100px;
+  height: 800px;
   text-align: center;
   background: url("/Assets/bg.png");
 }
