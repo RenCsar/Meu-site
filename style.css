@@ -158,7 +158,7 @@ nav ul a svg {
   display: flex;  
   justify-content: space-between;
   max-width: 1200px;
-  margin: 100px auto 0;  
+  margin: 70px auto 0;  
 }
 
 .services .services-container .service-card {
@@ -349,6 +349,10 @@ nav ul a svg {
 
   .services {
     margin: 100px 0;
+  }
+
+  .portfolio {
+    margin: 100px 0 50px;
   }
 
   .services .services-container, .portfolio-container {
