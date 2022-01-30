@@ -205,10 +205,23 @@ nav ul a svg {
 
 .portfolio .portfolio-container .portfolio-card .img-container {
   margin: 0 25px 50px;
+  position: relative;
 }
 
 .portfolio .portfolio-container .portfolio-card .img-container img {
   width: 100%;
+}
+
+.portfolio-container .portfolio-card .img-container .line {
+  width: calc(100% + 24px);
+  height: calc(100% + 24px);
+  border: 1px solid var(--green);
+  transform: rotate(-1.93deg);
+  border-radius: 16px;
+
+  position: absolute;
+  top: -12px;
+  left: calc(50% - 100%/2 - 12px);
 }
 
 .portfolio .portfolio-container .portfolio-card .language-container {
