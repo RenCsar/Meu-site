@@ -57,10 +57,8 @@ button {
   color: var(--green);
   font-weight: bold;
   height: 80px;
-  max-width: 428px;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .secundary-button img {
@@ -279,15 +277,16 @@ nav ul a svg {
 
 .curriculum .container {
   display: flex;
-  margin: 50px 0;
+  margin: 50px auto;
+  max-width: 1200px;
 }
 
 .curriculum .container .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  justify-content: center;
-  text-align: center;
+  align-items: center;
+  text-align: left;
   width: 100%;
 }
 
@@ -355,6 +354,17 @@ nav ul a svg {
     padding-bottom: 80px;
   }
 
+  .curriculum .container {
+    flex-wrap: wrap;
+  }
+
+  .curriculum .container .curriculum-img {
+    display: block;
+    margin: 0 auto 50px;
+    width: 100%;
+    max-width: 520px;
+  }
+
 }
 
 /*Responsividade para Tablet*/
@@ -415,4 +425,13 @@ nav ul a svg {
   .services .services-container, .portfolio-container {
     padding: 0 20px;
   }
+
+  .curriculum {
+    padding: 0 20px;;
+  }
+
+  .curriculum .container .content .curriculum-info {
+    padding: 0 15px;
+  }
+
 }
