@@ -17,20 +17,20 @@
         <p>
           Sou desenvolvedor frontend atuo com as tecnologias React e Vue js.
         </p>
-        <button>Entre em contato</button>
+        <button onclick="window.open('https://api.whatsapp.com/send?phone=5521990926768&text=sua%20mensagem')">Entre em contato</button>
       </div>
     </header>
     <nav>
       <img src="/Assets/Renan.png" alt="Logo" />
       <ul>
-        <a href=""><i data-feather="user"></i>Sobre mim</a>
-        <a href=""><i data-feather="briefcase"></i>Serviços</a>
-        <a href=""><i data-feather="image"></i>Portifólio</a>
-        <a href=""><i data-feather="list"></i>Currículo</a>
-        <a href=""><i data-feather="send"></i>Contato</a>
+        <a href="#aboutme"><i data-feather="user"></i>Sobre mim</a>
+        <a href="#services"><i data-feather="briefcase"></i>Serviços</a>
+        <a href="#portfolio"><i data-feather="image"></i>Portifólio</a>
+        <a href="#curriculum"><i data-feather="list"></i>Currículo</a>
+        <a href="#contact"><i data-feather="send"></i>Contato</a>
       </ul>
     </nav>
-    <section class="about-me">
+    <section class="about-me" id="aboutme">
       <div class="container">
         <h1 class="title-green">Sobre mim</h1>
         <p>
@@ -47,7 +47,7 @@
         <img src="./Assets/foto-renan.jpg" alt="Renan Cesar">
       </div>
     </section>
-    <section class="services">
+    <section class="services" id="services">
       <h1 class="title-purple">Serviços</h1>
       <div class="services-container">
         <div class="service-card">
@@ -67,7 +67,7 @@
         </div>
       </div>
     </section>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
       <h1 class="title-green">Portfólio</h1>
       <div class="portfolio-container">
         <div class="portfolio-card">
@@ -123,7 +123,7 @@
         </div>
       </div>
     </section>
-    <section class="curriculum">
+    <section class="curriculum" id="curriculum">
       <h1 class="title-green">Currículo</h1>
       <div class="container">
         <img class="curriculum-img" src="/Assets/curriculum-imagem.png">
@@ -145,8 +145,23 @@
         </div>
       </div>
     </section>
+    <section class="contact" id="contact">
+      <h1>Vamos trabalhar juntos?</h1>
+      <p>Se você gostou do meu trabalho e quer que eu tire sua ideia do papel ou faça parte do seu time, entre em contato comigo! </p>
+      <button onclick="window.open('https://api.whatsapp.com/send?phone=5521990926768&text=sua%20mensagem')">Entre em contato</button>
+
+      <div class="social-media">
+        <a href="#"><img src="/Assets/Vectorinstagram.svg" alt="Instagram logo"></a>
+        <a href="https://www.linkedin.com/in/renan-cesar/" target="_blank"><img src="/Assets/linkedinlinkedin.svg" alt="linkedin logo"></a>
+        <a href=""><img src="/Assets/youtubeyoutube.svg" alt="Youtube logo"></a>
+        <a href="https://api.whatsapp.com/send?phone=5521990926768&text=sua%20mensagem" target="_blank"><img src="/Assets/whatsappwpp.svg" alt="Whatsapp logo"></a>
+      </div>
+    </section>
+    <footer>
+      <p>Made by Renan Cesar - 2022</p>
+    </footer>
     <script>
-      feather.replace()
+      feather.replace();
     </script>
   </body>
 </html>
