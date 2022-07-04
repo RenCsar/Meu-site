@@ -70,10 +70,6 @@ button {
   margin-right: 15px;
 }
 
-.curriculum a {
-  text-decoration: none;
-}
-
 .title-purple {
   color: var(--purple);
 }
@@ -297,6 +293,10 @@ nav ul a svg {
   align-items: center;
   text-align: left;
   width: 100%;
+}
+
+.curriculum .container .content a {
+  text-decoration: none;
 }
 
 .curriculum .container .content .curriculum-info {
