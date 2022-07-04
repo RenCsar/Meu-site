@@ -42,6 +42,10 @@ h1, h2 {
   font-weight: 400;
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
   color: var(--light-grey);
 }
@@ -293,10 +297,6 @@ nav ul a svg {
   align-items: center;
   text-align: left;
   width: 100%;
-}
-
-a {
-  text-decoration: none;
 }
 
 .curriculum .container .content .curriculum-info {
