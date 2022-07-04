@@ -70,9 +70,8 @@ button {
   margin-right: 15px;
 }
 
-.secundary-button a {
+.curriculum a {
   text-decoration: none;
-  color: var(--green);
 }
 
 .title-purple {
